@@ -15,68 +15,63 @@ const Button4 = document.getElementById("js--Button4");
 const Button5 = document.getElementById("js--Button5");
 
 Button1.onclick = function () {
-    imageChanger.src = "./assets/products/schoen.png";
+    imageChanger.src = "./assets/products/skateboard.png";
     Button1.style.border = '0.4rem solid black';
     Button2.style.border = "0";
     Button3.style.border = "0";
     Button4.style.border = '0';
     Button5.style.border = "0";
-    Price.innerText = "€10";
+    Price.innerText = "€1032";
 
     console.log(imageChanger.src);
 }
 
 Button2.onclick = function () {
-    imageChanger.src = "./assets/products/schoen-zilver.png";
+    imageChanger.src = "./assets/products/skateboard-zilver.png";
     Button1.style.border = '0';
     Button2.style.border = "0.4rem solid black";
     Button3.style.border = "0";
     Button4.style.border = '0';
     Button5.style.border = "0";
-    Price.innerText = "€40";
+    Price.innerText = "€123";
 
     console.log(imageChanger.src);
 }
 
 Button3.onclick = function () {
-    imageChanger.src = "./assets/products/schoen-rood.png";
+    imageChanger.src = "./assets/products/skateboard-rood.png";
     Button1.style.border = '0';
     Button2.style.border = "0";
     Button3.style.border = "0.4rem solid black";
     Button4.style.border = '0';
     Button5.style.border = "0";
-    Price.innerText = "€60";
+    Price.innerText = "€610";
 
     console.log(imageChanger.src);
 }
 
 Button4.onclick = function () {
-    imageChanger.src = "./assets/products/schoen-goud.png";
+    imageChanger.src = "./assets/products/skateboard-goud.png";
     Button1.style.border = '0';
     Button2.style.border = "0";
     Button3.style.border = "0";
     Button4.style.border = '0.4rem solid black';
     Button5.style.border = "0";
-    Price.innerText = "€80";
+    Price.innerText = "€180";
 
     console.log(imageChanger.src);
 }
 
 Button5.onclick = function () {
-    imageChanger.src = "./assets/products/schoen-blauw.png";
+    imageChanger.src = "./assets/products/skateboard-blauw.png";
     Button1.style.border = '0';
     Button2.style.border = "0";
     Button3.style.border = "0";
     Button4.style.border = '0';
     Button5.style.border = "0.4rem solid black";
-    Price.innerText = "€90";
+    Price.innerText = "€120";
 
     console.log(imageChanger.src);
 }
 
 
-const Order = document.getElementById("js--Order");
-
-Order.onclick = function () {
-    console.log("hi");
-}
