@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 2rem;
+    background-color: #353531;
+    color: #ec4e20;
+}
+
+.logo img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+}
+
+nav .menu li {
+    margin-left: 5rem;
+    font-size: 150%;
+}
+
+nav .menu li a {
+    color: #ec4e20;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: background-color 0.3s;
+}
+
+nav .menu li a:hover {
+    background-color: #555;
+    border-radius: 0.5rem;
+}
