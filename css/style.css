@@ -12,18 +12,19 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 1.5rem 2rem;
     background-color: #353531;
     color: #ec4e20;
 }
 
 .logo img {
-    width: 5rem;
-    height: 5rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
 }
 
@@ -42,9 +43,86 @@ nav .menu li a {
     text-decoration: none;
     padding: 1rem 1.5rem;
     transition: background-color 0.3s;
+    font-size: 150%;
 }
 
 nav .menu li a:hover {
     background-color: #555;
     border-radius: 0.5rem;
 }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+
+.productsection{
+    width: 60rem;
+    height: 60rem;
+    background: #353531;
+    border-radius: 1.5rem;
+}
+
+.productwrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40rem;
+    gap: 2rem;
+    padding:1.5rem;
+}
+
+.productimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.productdetails{
+    font-size: 300%;
+    color: #ec4e20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.productbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.productButton{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.white{
+    background: WHITE;
+}
+
+.silver{
+    background: silver;
+}
+
+.red{
+    background: red;
+}
+
+.gold{
+    background: gold;
+}
+
+.blue{
+    background: blue;
+}
+
