@@ -78,5 +78,5 @@ Button5.onclick = function () {
 const Order = document.getElementById("js--Order");
 
 Order.onclick = function () {
-    console.log("hi");
+    alert("Bestelling is voltooid");
 }
